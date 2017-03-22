@@ -1,18 +1,10 @@
 engines:
   rubocop:
     enabled: true
-
-  brakeman:
-    enabled: true
-    config:
-      path: backend
-
   eslint:
     enabled: true
-
   csslint:
     enabled: true
-
   duplication:
     enabled: true
     config:
