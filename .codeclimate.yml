@@ -1,22 +1,28 @@
 engines:
   rubocop:
     enabled: true
+
   brakeman:
-   	enabled: true
+    enabled: true
+
   eslint:
     enabled: true
+
   csslint:
     enabled: true
+
   duplication:
-  	enabled: true
+    enabled: true
     config:
-    	languages:
+      languages:
       - ruby
       - javascript
+
 ratings:
   paths:
   - backend/app/**
   - backend/lib/**
+
 exclude_paths:
 - spec/**/*
 - "**/vendor/**/*"
